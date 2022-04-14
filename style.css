@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    
+}
+
+.baslik {
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+    
+    align-items: center;
+
+}
+
+.baslik input {
+    width: 300px;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin:5px auto 0 auto; 
+}
+
+.boxes div {
+    margin-right: 5px;
+}
+.box1 {
+    width: 40%;
+    background-color: rgb(103, 158, 158);
+    text-align: center;
+}
+
+.box2 {
+    width: 20%;
+    background-color: rgb(68, 145, 145);
+    text-align: center;
+}
+
+.box3 {
+    width: 40%;
+    background-color: rgb(20, 90, 99);
+    text-align: center;
+}
+
+#footer{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    
+    
+    
+}
+
